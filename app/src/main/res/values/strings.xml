@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AppOrganizze</string>
+    <string name="apresentacao">Crie sua conta grátis!</string>
+    <string name="apresentacao_1">Tenha o controle em mãos de todos os gastos. Sem surpresas!</string>
+    <string name="button_cadastrar">CADASTRE-SE</string>
+    <string name="button_cadastrar_cadastro">CADASTRAR</string>
+    <string name="acessar_conta">Já tenho conta!</string>
+    <string name="termo_cadastro">Termo de uso</string>
+    <string name="acesse_conta">Acesse sua conta!</string>
+    <string name="button_acesse_conta">ENTRAR</string>
+    <string name="title_activity_despesas">DespesasActivity</string>
+    <string name="menu">Sair</string>
+</resources>

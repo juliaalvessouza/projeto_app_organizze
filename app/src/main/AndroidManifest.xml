@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apporganizze">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppOrganizze">
+
+        <activity android:name=".activits.DespesaActivity"
+            android:theme="@style/despesasTheme"/>
+        <activity android:name=".activits.ReceitaActivity"
+            android:theme="@style/receitaTheme" />
+        <activity
+            android:name=".activits.OrganizzeActivity"
+            android:label="@string/title_activity_despesas"
+            android:theme="@style/Theme.AppOrganizze.NoActionBar" />
+        <activity android:name=".activits.CadastroActivity" />
+        <activity android:name=".activits.LoginActivity" />
+        <activity android:name=".activits.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
